@@ -13,4 +13,6 @@ https://micheqn3.github.io/uci-unit3-hmwk/
 
 #### Screenshot of deployed application 
 
+![Screenshot](/Assets/password-gen-screenshot.png)
+
 
