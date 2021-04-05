@@ -26,63 +26,48 @@ function startGame() {
       alert("You have to choose at least one criteria. Please try again."); // Makes sure at least one criteria is chosen
 
     } else if (userUpperCase === "1" && userLowerCase === "1" && userNumbers === "1" && userSpecial === "1") {
-      console.log("I'm here!11");
       userCriteria = upperCaseAlph.concat(lowerCaseAlph, numbers, specialCharacters); // if all are chosen 
     
     } else if (userUpperCase === "1" && userLowerCase === "1") {
-      console.log("I'm here!5");
       userCriteria = upperCaseAlph.concat(lowerCaseAlph); // Concat method will combine all of these arrays into one array
     
     } else if (userUpperCase === "1" && userNumbers === "1") {
-      console.log("I'm here!6");
       userCriteria = upperCaseAlph.concat(numbers);
     
     } else if (userUpperCase === "1" && userSpecial === "1") {
-      console.log("I'm here!7");
       userCriteria = upperCaseAlph.concat(specialCharacters);
     
     } else if (userLowerCase === "1" && userNumbers === "1") {
-      console.log("I'm here!8");
       userCriteria = lowerCaseAlph.concat(numbers);
     
     } else if (userLowerCase === "1" && userSpecial === "1") {
-      console.log("I'm here!9");
       userCriteria = lowerCaseAlph.concat(specialCharacters);
     
     } else if (userNumbers === "1" && userSpecial === "1") {
-      console.log("I'm here!10");
       userCriteria = numbers.concat(specialCharacters);
     
     } else if (userUpperCase === "1" && userLowerCase === "1" && userNumbers === "1") {
-      console.log("I'm here!12");
       userCriteria = upperCaseAlph.concat(lowerCaseAlph, numbers);
     
     } else if (userUpperCase === "1" && userLowerCase === "1" && userSpecial === "1") {
-      console.log("I'm here!13");
       userCriteria = upperCaseAlph.concat(lowerCaseAlph, specialCharacters);
     
     } else if (userLowerCase === "1" && userNumbers === "1" && userSpecial === "1") {
-      console.log("I'm here!14");
       userCriteria = lowerCaseAlph.concat(numbers, specialCharacters);
       
     } else if (userSpecial === "1" && userNumbers === "1" && userUpperCase === "1") {
-      console.log("I'm here!15");
       userCriteria = specialCharacters.concat(numbers, upperCaseAlph);
     
     } else if (userUpperCase === "1") {
-      console.log("I'm here! 1");
       userCriteria = upperCaseAlph;
 
     } else if (userLowerCase === "1") {
-      console.log("I'm here! 2");
       userCriteria = lowerCaseAlph;
 
     } else if (userNumbers === "1") {
-      console.log("I'm here!3");
       userCriteria = numbers;
     
     } else if (userSpecial === "1") {
-      console.log("I'm here!4");
       userCriteria = specialCharacters; 
     }
     var newPassword = []; // variable that will hold array
