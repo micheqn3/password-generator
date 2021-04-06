@@ -9,10 +9,19 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
+  letter-spacing: 0.3em;
 } 
 
+header {
+  letter-spacing: .5em;
+  background-image: linear-gradient(#FFC0CB, #FF1493);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-webkit-animation: hue 10s infinite linear;
+}
+
 body {
-  font-family: sans-serif;
+  font-family: helvetica;
   background-color: #f9fbfd;
 }
 
@@ -21,28 +30,37 @@ body {
 } 
 
 #overlay { 
-  position:absolute; 
+  position: absolute; 
   top: 15%; 
-  left: 35%; 
+  left: 30%; 
 }
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 18px;
   padding-top: 0px;
   color: white;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
+  background-color: white;
   border-radius: 5px;
   border-width: 1px;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
   font-size: 18px;
   margin: 0 auto;
   max-width: 800px;
   padding: 30px 100px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.card-header {
+  color: black;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 .card-header::after {
@@ -115,7 +133,7 @@ button[disabled] {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px double #cc0066;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
