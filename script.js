@@ -6,14 +6,15 @@ const lowerCaseAlph = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 const numbers = ["1", "2", "3", "4", "5", "6", "7", "8", "9"]; 
 const specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "~"]; 
 var userCriteria; // used to store arrays of criteria choices combined
-function writePassword() { // Write password to the #password input
-  var password = startGame();
+
+function generatePassword() { // Write password to the #password input
+  var password = start();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
 }
 
 // Create function generatePassword that will return a new password
-function startGame() {
+function start() {
   var userInput = prompt("How many characters do you want in the password?");
   if (userInput >=  8 && userInput <= 128) { // Validate user input
     alert("Awesome! Now choose at least one of the next 4 criteria.");
@@ -84,5 +85,5 @@ function startGame() {
   }
 }
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword); // When user clicks the button, writePassword() is called
+generateBtn.addEventListener("click", generatePassword); // When user clicks the button, writePassword() is called
 
