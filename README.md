@@ -1,4 +1,4 @@
-## UCI Homework #3 Password Generator
+### Password Generator
 
 This repository contains a password generator. It includes prompts that asks the user criteria such as...
 how many characters they want in the password, if they want uppercase characters, lowercase characters, numbers,
