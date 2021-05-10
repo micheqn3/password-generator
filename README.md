@@ -25,7 +25,7 @@ The application then presents the user with the generated password based on the 
 
 #### Link to deployed application
 
-https://micheqn3.github.io/uci-unit3-hmwk-password-generator/
+https://micheqn3.github.io/password-generator/
 
 #### Video of deployed application 
 
