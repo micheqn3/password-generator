@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## Password Generator
 
 This repository contains a password generator. It includes prompts that asks the user criteria such as...
@@ -21,7 +22,11 @@ The application then presents the user with the generated password based on the 
   - matrix.js- This file contains JS code that targets the canvas of the HTML file to further style the page.
 
   - style.css- This file provides additional styling to the page.
-  
+
+### Technologies/Languages used: 
+
+  - JavaScript
+  - HTML/CSS
 
 #### Link to deployed application
 
@@ -34,3 +39,7 @@ https://user-images.githubusercontent.com/68047684/114973988-61bb0080-9e36-11eb-
 #### Screenshot of deployed application 
 
 ![Screenshot](/Assets/pwd-generator-screenshot.png)
+
+### License [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+MIT 
